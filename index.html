@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="result-container">
+        <div id="change" class="grid-item">0</div>
+    </div>
+    <div class="grid-container">
+        <div class="grid-item" onclick="number('7')">7</div>
+        <div class="grid-item" onclick="number('8')">8</div>
+        <div class="grid-item" onclick="number('9')">9</div>
+        <div class="grid-item" onclick="divideDisplay('÷')">÷</div>  
+        <div class="grid-item" onclick="number('4')">4</div>
+        <div class="grid-item" onclick="number('5')">5</div>
+        <div class="grid-item" onclick="number('6')">6</div>  
+        <div class="grid-item" onclick="timesDisplay('*')">*</div>
+        <div class="grid-item" onclick="number('1')">1</div>
+        <div class="grid-item" onclick="number('2')">2</div>  
+        <div class="grid-item" onclick="number('3')">3</div>
+        <div class="grid-item" onclick="minusDisplay()">-</div> 
+        <div class="grid-item clear-item" onclick="clearDisplay()">clear</div> 
+        <div class="grid-item" onclick="number('0')">0</div> 
+        <div class="grid-item" onclick="plusDisplay()">+</div> 
+
+    </div>
+
+    <div class="giveresult-container">
+        <div class="grid-item" onclick="equalsDisplay()">=</div>
+</body>
+</html>
